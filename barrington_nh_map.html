@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_31969cc9c4b070d9d52beb4cfcaaafc9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_31969cc9c4b070d9d52beb4cfcaaafc9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_31969cc9c4b070d9d52beb4cfcaaafc9 = L.map(
+                "map_31969cc9c4b070d9d52beb4cfcaaafc9",
+                {
+                    center: [43.2224, -71.0348],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c34d12a1ddbe7bf6d0dd2c138291bb4d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var marker_d7c451c2844f12ab2f6360093386d00d = L.marker(
+                [43.2224, -71.0348],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_41755d0f5ba2eba172c1649060ade403 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7c451c2844f12ab2f6360093386d00d.setIcon(icon_41755d0f5ba2eba172c1649060ade403);
+        
+    
+        var popup_8945d41a2ad52e7046e1bfda3683b33a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18ac440b4ff34b9758b20dbcfee43fc5 = $(`<div id="html_18ac440b4ff34b9758b20dbcfee43fc5" style="width: 100.0%; height: 100.0%;">9 Emerald Drive, Barrington, NH</div>`)[0];
+            popup_8945d41a2ad52e7046e1bfda3683b33a.setContent(html_18ac440b4ff34b9758b20dbcfee43fc5);
+        
+
+        marker_d7c451c2844f12ab2f6360093386d00d.bindPopup(popup_8945d41a2ad52e7046e1bfda3683b33a)
+        ;
+
+        
+    
+    
+            var marker_73bbbb80af2bfbe9d6ca11e3fc1df9c3 = L.marker(
+                [43.223, -71.0352],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_f522ff5b8c8ee2a33e01972144853319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73bbbb80af2bfbe9d6ca11e3fc1df9c3.setIcon(icon_f522ff5b8c8ee2a33e01972144853319);
+        
+    
+        var popup_aa554c7a7e4195980241830e39008f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b698d6e516b8050d552f47ef3027f1cb = $(`<div id="html_b698d6e516b8050d552f47ef3027f1cb" style="width: 100.0%; height: 100.0%;">27 Emerald Drive, Barrington, NH</div>`)[0];
+            popup_aa554c7a7e4195980241830e39008f2f.setContent(html_b698d6e516b8050d552f47ef3027f1cb);
+        
+
+        marker_73bbbb80af2bfbe9d6ca11e3fc1df9c3.bindPopup(popup_aa554c7a7e4195980241830e39008f2f)
+        ;
+
+        
+    
+    
+            var marker_705fe66c050669752f6ef7450c31651c = L.marker(
+                [43.1215, -70.9761],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_623c0ea8db131beb7b2381e9cbe03e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_705fe66c050669752f6ef7450c31651c.setIcon(icon_623c0ea8db131beb7b2381e9cbe03e3b);
+        
+    
+        var popup_e067a8dc78108ecb0bb525a79700456f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_729a09b4d246a9d58fb2d6c5ad0f155d = $(`<div id="html_729a09b4d246a9d58fb2d6c5ad0f155d" style="width: 100.0%; height: 100.0%;">28 Concord Road, Lee, NH</div>`)[0];
+            popup_e067a8dc78108ecb0bb525a79700456f.setContent(html_729a09b4d246a9d58fb2d6c5ad0f155d);
+        
+
+        marker_705fe66c050669752f6ef7450c31651c.bindPopup(popup_e067a8dc78108ecb0bb525a79700456f)
+        ;
+
+        
+    
+    
+            var marker_327bc27267d4ba327656f1a4df7f171d = L.marker(
+                [43.122, -70.977],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_75a1a18536ee8abf42fb33489e396542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_327bc27267d4ba327656f1a4df7f171d.setIcon(icon_75a1a18536ee8abf42fb33489e396542);
+        
+    
+        var popup_6296a4e7f271962b735b660537486615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_667863053bcbac180d814c033339fbde = $(`<div id="html_667863053bcbac180d814c033339fbde" style="width: 100.0%; height: 100.0%;">32 Concord Road, Lee, NH</div>`)[0];
+            popup_6296a4e7f271962b735b660537486615.setContent(html_667863053bcbac180d814c033339fbde);
+        
+
+        marker_327bc27267d4ba327656f1a4df7f171d.bindPopup(popup_6296a4e7f271962b735b660537486615)
+        ;
+
+        
+    
+    
+            var marker_ba5c7c9010eeeb3768e2fbe02f10a7aa = L.marker(
+                [43.2218, -71.0305],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_4731c43d7e57e90a2e666e91bd25930e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba5c7c9010eeeb3768e2fbe02f10a7aa.setIcon(icon_4731c43d7e57e90a2e666e91bd25930e);
+        
+    
+        var popup_e85ae8460dbaa6c04fa2205e5521dcc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45e83cbb9b5642591c14315fe4b35a27 = $(`<div id="html_45e83cbb9b5642591c14315fe4b35a27" style="width: 100.0%; height: 100.0%;">44 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_e85ae8460dbaa6c04fa2205e5521dcc9.setContent(html_45e83cbb9b5642591c14315fe4b35a27);
+        
+
+        marker_ba5c7c9010eeeb3768e2fbe02f10a7aa.bindPopup(popup_e85ae8460dbaa6c04fa2205e5521dcc9)
+        ;
+
+        
+    
+    
+            var marker_87dcb0802438c652bd8e1fa999c830c5 = L.marker(
+                [43.222, -71.0307],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_711fe5db799bfab1d79675ce68d2a01a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87dcb0802438c652bd8e1fa999c830c5.setIcon(icon_711fe5db799bfab1d79675ce68d2a01a);
+        
+    
+        var popup_19b8a1bb5a26635f7aee25da2357551b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e01e096fe94d1b766c4ce6ac8542ff4 = $(`<div id="html_8e01e096fe94d1b766c4ce6ac8542ff4" style="width: 100.0%; height: 100.0%;">46 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_19b8a1bb5a26635f7aee25da2357551b.setContent(html_8e01e096fe94d1b766c4ce6ac8542ff4);
+        
+
+        marker_87dcb0802438c652bd8e1fa999c830c5.bindPopup(popup_19b8a1bb5a26635f7aee25da2357551b)
+        ;
+
+        
+    
+    
+            var marker_2044538f0b48261e39b155ebb4679631 = L.marker(
+                [43.2225, -71.0312],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_e627f0414402d0cf24b31a5e40969a2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2044538f0b48261e39b155ebb4679631.setIcon(icon_e627f0414402d0cf24b31a5e40969a2e);
+        
+    
+        var popup_b8c693837287490f4c6eab77773e3999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbf95f2035dd547cc360308cafcb1e34 = $(`<div id="html_bbf95f2035dd547cc360308cafcb1e34" style="width: 100.0%; height: 100.0%;">54 #1 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_b8c693837287490f4c6eab77773e3999.setContent(html_bbf95f2035dd547cc360308cafcb1e34);
+        
+
+        marker_2044538f0b48261e39b155ebb4679631.bindPopup(popup_b8c693837287490f4c6eab77773e3999)
+        ;
+
+        
+    
+    
+            var marker_eb26ea3dfd8108f4f456e2bda97c5de2 = L.marker(
+                [43.2225, -71.0312],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_9997b35a595f303c7ef0d0de25d4bfd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb26ea3dfd8108f4f456e2bda97c5de2.setIcon(icon_9997b35a595f303c7ef0d0de25d4bfd7);
+        
+    
+        var popup_89473419c25caccd515c7a483f293c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecf8579a5b0b38f3a43e590cf664be91 = $(`<div id="html_ecf8579a5b0b38f3a43e590cf664be91" style="width: 100.0%; height: 100.0%;">54 #2 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_89473419c25caccd515c7a483f293c4f.setContent(html_ecf8579a5b0b38f3a43e590cf664be91);
+        
+
+        marker_eb26ea3dfd8108f4f456e2bda97c5de2.bindPopup(popup_89473419c25caccd515c7a483f293c4f)
+        ;
+
+        
+    
+    
+            var marker_9aa0637fa7210b06b98c1b9e846743b1 = L.marker(
+                [43.223, -71.0317],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_acadb118400bf4ff5e73b4c7744f73db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9aa0637fa7210b06b98c1b9e846743b1.setIcon(icon_acadb118400bf4ff5e73b4c7744f73db);
+        
+    
+        var popup_1b3f0e86536900b2d44c0c1545117c98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56b54825101d47a2944b824619e8f6a2 = $(`<div id="html_56b54825101d47a2944b824619e8f6a2" style="width: 100.0%; height: 100.0%;">58 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_1b3f0e86536900b2d44c0c1545117c98.setContent(html_56b54825101d47a2944b824619e8f6a2);
+        
+
+        marker_9aa0637fa7210b06b98c1b9e846743b1.bindPopup(popup_1b3f0e86536900b2d44c0c1545117c98)
+        ;
+
+        
+    
+    
+            var marker_11ad48f95762aac6adeabf7c00468b64 = L.marker(
+                [43.2235, -71.0322],
+                {}
+            ).addTo(map_31969cc9c4b070d9d52beb4cfcaaafc9);
+        
+    
+            var icon_5089b9fa4157713cc07a6a6f79afa803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11ad48f95762aac6adeabf7c00468b64.setIcon(icon_5089b9fa4157713cc07a6a6f79afa803);
+        
+    
+        var popup_0223b85bc8d9f8a26d2e08da1e5c7070 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b72abda12e81de723d2f3b7c3c9f5681 = $(`<div id="html_b72abda12e81de723d2f3b7c3c9f5681" style="width: 100.0%; height: 100.0%;">66 Old Concord Tpke, Barrington, NH</div>`)[0];
+            popup_0223b85bc8d9f8a26d2e08da1e5c7070.setContent(html_b72abda12e81de723d2f3b7c3c9f5681);
+        
+
+        marker_11ad48f95762aac6adeabf7c00468b64.bindPopup(popup_0223b85bc8d9f8a26d2e08da1e5c7070)
+        ;
+
+        
+    
+</script>
+</html>
